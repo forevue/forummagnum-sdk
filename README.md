@@ -26,7 +26,7 @@ $client = \Forevue\ForumMagnumSdk\Client::eaForum();
 $client = \Forevue\ForumMagnumSdk\Client::lessWrong();
 ```
 
-> This SDK doesn't include any caching mechanism, but **cache responses**, especially resource heavy ones. **Be a nice
+> This SDK doesn't include any caching mechanism, but **cache requests**, especially resource heavy ones. **Be a nice
 human.**
 
 ### Get a post
