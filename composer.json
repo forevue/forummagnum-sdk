@@ -1,6 +1,6 @@
 {
-    "name": "felixdorn/:name",
-    "description": ":description",
+    "name": "felixdorn/forummagnum-sdk",
+    "description": "An incomplete SDK for the EA Forum / LessWrong API",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.7"
     },
     "require-dev": {
         "laravel/pint": "^1.10",
@@ -19,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Felix\\:namespace\\": "src/"
+            "Forevue\\ForumMagnumSdk\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Felix\\:namespace\\Tests\\": "tests/"
+            "Forevue\\ForumMagnumSdk\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
