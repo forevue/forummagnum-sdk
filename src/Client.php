@@ -46,7 +46,7 @@ class Client
 
         $body = $response->getBody()->getContents();
 
-        return json_decode($body, true)['data']['post']['result'];
+        return json_decode($body, false)['data']['post']['result'];
     }
 
     public function request(string $query, array $variables = []): ResponseInterface
