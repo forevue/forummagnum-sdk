@@ -31,7 +31,7 @@ class Client
         return new static('https://www.lesswrong.com/graphql');
     }
 
-    public function getPost(string $id, array $properties): ?array
+    public function getPost(string $id, array $properties): ?\stdClass
     {
         $response = $this->request(
             sprintf('query GetPost($id: String) {
